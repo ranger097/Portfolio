@@ -29,5 +29,21 @@
 	"imports": {
 		"#lib": "./src/lib/index.js",
 		"#lib/*": "./src/lib/*"
+	},
+	"dependencies": {
+		"@dimforge/rapier3d-compat": "^0.21.0",
+		"@parcel/watcher": "^2.6.0",
+		"@theatre/core": "^0.7.2",
+		"@theatre/studio": "^0.7.2",
+		"@threlte/core": "^8.6.1",
+		"@threlte/extras": "^9.22.0",
+		"@threlte/flex": "^2.2.2",
+		"@threlte/rapier": "^3.5.1",
+		"@threlte/studio": "^0.4.4",
+		"@threlte/theatre": "^3.2.2",
+		"three": "^0.186.1"
+	},
+	"allowScripts": {
+		"@parcel/watcher@2.6.0": true
 	}
 }
